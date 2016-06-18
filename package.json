@@ -7,6 +7,7 @@
     "url": "https://github.com/jackboberg/eslint-diff/issues"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "~1.1.6",
     "nyc": "^6.6.1",
     "standard": "*",
     "tap-spec": "^4.0.2",
@@ -28,5 +29,10 @@
     "lint": "standard",
     "pretest": "npm run lint",
     "test": "nyc tape test/*.js | tap-spec"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }

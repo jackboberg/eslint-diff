@@ -2,7 +2,7 @@
   "name": "eslint-diff",
   "description": "compare eslint shareable configs",
   "version": "0.0.0",
-  "author": "Jack Boberg <jack.boberg@gmail.com>",
+  "author": "Jack Boberg <hello@jackboberg.info>",
   "bugs": {
     "url": "https://github.com/jackboberg/eslint-diff/issues"
   },

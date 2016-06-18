@@ -1,6 +1,6 @@
 # [MIT License](https://spdx.org/licenses/MIT)
 
-Copyright (c) 2016 Jack Boberg <jack.boberg@gmail.com>
+Copyright (c) 2016 Jack Boberg <hello@jackboberg.info>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

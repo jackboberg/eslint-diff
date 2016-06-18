@@ -1,0 +1,32 @@
+{
+  "name": "eslint-diff",
+  "description": "compare eslint shareable configs",
+  "version": "0.0.0",
+  "author": "Jack Boberg <jack.boberg@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/jackboberg/eslint-diff/issues"
+  },
+  "devDependencies": {
+    "nyc": "^6.6.1",
+    "standard": "*",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  },
+  "homepage": "https://github.com/jackboberg/eslint-diff",
+  "keywords": [
+    "compare",
+    "diff",
+    "eslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackboberg/eslint-diff.git"
+  },
+  "scripts": {
+    "lint": "standard",
+    "pretest": "npm run lint",
+    "test": "nyc tape test/*.js | tap-spec"
+  }
+}

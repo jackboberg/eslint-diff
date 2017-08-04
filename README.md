@@ -1,5 +1,7 @@
 # eslint-diff
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jackboberg/eslint-diff.svg)](https://greenkeeper.io/)
+
 [![npm][npm-image]][npm-url]
 [![travis][travis-image]][travis-url]
 [![standard][standard-image]][standard-url]
